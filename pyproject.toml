@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spanish-ai-tutor"
+version = "0.1.0"
+description = ""
+authors = ["Stanley Chiu <stanchiu224@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spanish_ai_tutor"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.0"
+gradio = "^3.20.0"
+google-cloud-texttospeech = "^2.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
