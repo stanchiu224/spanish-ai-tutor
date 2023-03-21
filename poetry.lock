@@ -212,6 +212,22 @@ tests = ["attrs[tests-no-zope]", "zope.interface"]
 tests-no-zope = ["cloudpickle", "cloudpickle", "hypothesis", "hypothesis", "mypy (>=0.971,<0.990)", "mypy (>=0.971,<0.990)", "pympler", "pympler", "pytest (>=4.3.0)", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-mypy-plugins", "pytest-xdist[psutil]", "pytest-xdist[psutil]"]
 
 [[package]]
+name = "azure-cognitiveservices-speech"
+version = "1.26.0"
+description = "\"Microsoft Cognitive Services Speech SDK\""
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:5d4c3967019bc13881e1cf8805de2ad0e0c4ffc45e34444b81aefadf64ab21f6"},
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:2c6c3342d5fd52fc72268d7a079c8f4f2ed9f54b850a6e40c4e747ef595fae6d"},
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:89377e12e0e31f4a9721b6a95f5b1578985213de7dc62d2999db8cc0ebdd15f7"},
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:22f8802a0dc078952fe6b685773ad51404349761c9737ffc4afeac7b48676c1f"},
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-win32.whl", hash = "sha256:7f2ff4c728fe48bd049df23fd70d247b4a68e68892340916cd665ac3a64704f1"},
+    {file = "azure_cognitiveservices_speech-1.26.0-py3-none-win_amd64.whl", hash = "sha256:e09d3e101c81a7b41c40544f2055b7ee2e93cb54ae60cb1e8d5d50121ddd68f9"},
+]
+
+[[package]]
 name = "black"
 version = "23.1.0"
 description = "The uncompromising code formatter."
@@ -1910,6 +1926,21 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.0.tar.gz", hash = "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba"},
+    {file = "python_dotenv-1.0.0-py3-none-any.whl", hash = "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "python-multipart"
 version = "0.0.6"
 description = "A streaming multipart parser for Python"
@@ -2349,4 +2380,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1607795e0a166157c6cf3f2ca2afe81ebeae2f4a19ace4b1b86115ee6bc12237"
+content-hash = "0c5adb2f7a9aec6d393ab00d8a754615b08760dcfbb6b6d300d7426229adb4c4"
