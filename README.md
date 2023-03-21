@@ -5,8 +5,8 @@ This code provides a language tutoring chatbot that can be accessed through eith
 
 A Poetry.lock file is included for required dependencies.
 
+## Screenshot of the language tutor
 ![Screenshot of the chatbot](/images/screenshot-interface.png)
-Screenshot of the language tutor
 
 ## Instructions
 
